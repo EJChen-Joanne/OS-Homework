@@ -1,10 +1,10 @@
-//610001018 FCFS Scheduling
+//FCFS Scheduling
 #include<iostream>
 #include<vector>
 #include<utility>
 #include<algorithm>
 using namespace std;
-typedef pair<int,pair<int,int>> pi;
+typedef pair<int,pair<int,int> > pi;
 
 int main()
 {

@@ -1,11 +1,11 @@
-//610001018 MFQs Scheduling
+//MultiLevel Feedback Queue (RR+SRTF)
 #include<iostream>
 #include<vector>
 #include<queue>
 #include<utility>
 #include<algorithm>
 using namespace std;
-typedef pair<int,pair<int,int>> pi;
+typedef pair<int,pair<int,int> > pi;
 struct MyCmp
 {
     constexpr bool operator()(pi const &a,pi const &b)

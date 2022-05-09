@@ -1,11 +1,11 @@
-//610001018 RR Scheduling
+//Round Robin
 #include<iostream>
 #include<vector>
 #include<queue>
 #include<utility>
 #include<algorithm>
 using namespace std;
-typedef pair<int,pair<int,int>> pi;
+typedef pair<int,pair<int,int> > pi;
 
 bool cmp(const pi &a,const pi &b)
 {
