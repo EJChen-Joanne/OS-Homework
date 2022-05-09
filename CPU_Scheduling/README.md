@@ -3,12 +3,10 @@
 ***C++ programs to implement CPU scheduling algorithms such as FCFS, SJF, RR, MFQs(RR-SRTF).***
 
 * Direction: [file](./OS_HW2.pdf)
-* **compile:**
+* Environment: Linux
+* **compile & run:**
 
 ```c++
-
-g++ {algoname.cpp} -o {algoname}
-
-./{algoname}
-
+$ g++ {algoname.cpp} -o {algoname}
+$ ./{algoname}
 ```

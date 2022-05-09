@@ -9,25 +9,19 @@
 #### hw1_2:
 
 * utilize fork() to create new processes.
-* compile:
+* compile & run:
 
 ```c++
-
-g++ hw1_2.c -o hw1_2
-
-./hw1_2
-
+$ g++ hw1_2.c -o hw1_2
+$ ./hw1_2
 ```
 
 #### hw1_3:
 
 * design a C++ program to serve as a simple shell interface which supporting commands such as cat {filename}, ls, date, ps, ps -f, exit.
-* compile:
+* compile & run:
 
 ```c++
-
-g++ hw1_3.cpp -o hw1_3
-
-./hw1_3
-
+$ g++ hw1_3.cpp -o hw1_3
+$ ./hw1_3
 ```
